@@ -62,14 +62,13 @@ const signup = () => {
     for(let i = 0; i < users.length; ++i) {
         //console.log(users[i])
         if (users[i].username == username && users[i].password == password) {
-            cleanAlert();
-            return popLog();    
+            /*alert(`Bienvenid@ ${username}`);
+            return cleanAlert();*/
+            window.location.href = "./index.html";
         }
     }
 
     popAlert();
-
-    cleanAlert();
 
         
 

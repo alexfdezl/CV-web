@@ -74,5 +74,7 @@ const signup = () => {
 
     axios.post(`${url}`, {create_UUID, username, password});
 
+    //window.location.href = "./login.html";
+
 
 }
